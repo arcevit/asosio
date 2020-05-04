@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 10%;
+}
+h2 {
+  font-size: 1rem;
+  color: #999;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul > li {
+  padding: 10px 15px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+
+  color: #999;
+}
+ul > li > div {
+  display: none;
+  margin-left: 10px;
+  color: #000;
+}
+ul > li:hover > div {
+  display: initial;
+}
